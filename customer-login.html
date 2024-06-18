@@ -1,434 +1,721 @@
-
 <!doctype html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Customer-Login</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="icon" href="img/logo.png" />
-        <!-- Place favicon.ico in the root directory -->
-		<!-- google-font -->
-		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet"> 
-		<!-- all css here -->
-		<!-- bootstrap v3.3.6 css -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- animate css -->
-        <link rel="stylesheet" href="css/animate.css">
-		<!-- jquery-ui.min css -->
-        <link rel="stylesheet" href="css/jquery-ui.min.css">
-		<!-- nivo-slider css -->
-        <link rel="stylesheet" href="css/nivo-slider.css">
-		<!-- magnific-popup css -->
-        <link rel="stylesheet" href="css/magnific-popup.css">		
-		<!-- meanmenu css -->
-        <link rel="stylesheet" href="css/meanmenu.min.css">
-		<!-- owl.carousel css -->
-        <link rel="stylesheet" href="css/owl.carousel.css">
-		<!--linearicons css -->
-        <link rel="stylesheet" href="css/linearicons-icon-font.min.css">
-		<!-- font-awesome css -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-		<!-- style css -->
-		<link rel="stylesheet" href="style.css">
-		<!-- responsive css -->
-        <link rel="stylesheet" href="css/responsive.css" />
-		<!-- modernizr css -->
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Customer-Login</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" href="img/logo.png" />
+	<!-- Place favicon.ico in the root directory -->
+	<!-- google-font -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<!-- all css here -->
+	<!-- bootstrap v3.3.6 css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- jquery-ui.min css -->
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<!-- nivo-slider css -->
+	<link rel="stylesheet" href="css/nivo-slider.css">
+	<!-- magnific-popup css -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- meanmenu css -->
+	<link rel="stylesheet" href="css/meanmenu.min.css">
+	<!-- owl.carousel css -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<!--linearicons css -->
+	<link rel="stylesheet" href="css/linearicons-icon-font.min.css">
+	<!-- font-awesome css -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- style css -->
+	<link rel="stylesheet" href="style.css">
+	<!-- responsive css -->
+	<link rel="stylesheet" href="css/responsive.css" />
+	<!-- modernizr css -->
+	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+	<!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-		<!-- header-start -->
-		<header>
-			<div class="header-top-area ptb-10 hidden-xs header-top-area-4">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-sm-5">
-							<div class="header-top-right header-top-left-4">
-								<p>FREE SHIPPING ON ORDERS OVER Rs499</p>
-							</div>
-						</div>					
-						<div class="col-lg-9 col-md-8 col-sm-7 header-top-right-4">
-							<!--<div class="dropdown header-left-menu">
-								  <button class="btn btn-default header-left-menu dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-									<img src="img/eng/1.jpg" alt="" /> English 1 <i class="fa fa-angle-down"></i>
-								  </button>
-								  <ul class="dropdown-menu">
-									  <li><a href="#"><img src="img/eng/2.jpg" alt="" /> English 1</a></li>
-									  <li><a href="#"><img src="img/eng/3.jpg" alt="" /> English 2</a></li>
-									  <li><a href="#"><img src="img/eng/1.jpg" alt="" /> English 3</a></li>
-								  </ul>
-							</div>-->
-							<!--<div class="dropdown header-left-menu">
-								<button class="btn btn-default header-left-menu dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-								GBP  <i class="fa fa-angle-down"></i>
-								</button>
-								 <ul class="dropdown-menu">
-									<li><a href="#"> EUR - Euro</a></li>
-									<li><a href="#"> USD - US Dollar</a></li>
-								</ul>
-							</div>-->
-							<div class="header-top-left">
-								<ul>
-                                <li class="click_menu"><a href="#">My Account <i class="fa fa-angle-down"></i></a>
-										<ul class="click_menu_show">
-											<li><a href="customer-login.html">Compare Products</a></li>
-											<li><a href="customer-login.html">My Account</a></li>
-											<li><a href="wishlist.html">My Wish List</a></li>
-											<li><a href="customer-login.html">Sign In</a></li>
-										</ul>
-									</li>
-									<li><a href="customer-account.html">Create an Account</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="header-bottom-area home-page-2 ptb-10">
-				<div class="container">
-					<div class="row">
-
-						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-							<div class="menu-search-box scnd-fix">
-								<form action="#">
-									<input type="text" placeholder="Search here..."/>
-									<button><span class="lnr lnr-magnifier"></span></button>
-								</form>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="logo logo2">
-								<a href="index.html"><img src="img/logo.png" style="height: 57px; width: 87px;" alt="" /></a>
-							</div>					
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
-							<div class="header-bottom-right-4-inner">
-								<a href="#"><span class="lnr lnr-heart"></span></a>
-							</div>					
-							<div class="header-bottom-right header-bottom-right-4">
-								<div class="shop-cart shop-cart-4">									
-									<a href="#"><span class="lnr lnr-cart"></span></a>
-								</div>
-								<div class="shop-cart-hover shop-cart-hover-4 fix">
-									<ul>
-										<li>
-											<div class="cart-img">
-												<a href="#"><img src="img/cart/1.jpg" alt="" /></a>
-											</div>
-											<div class="cart-content">
-												<h4><a href="#">1 x Faded...</a></h4>
-												<span><a href="#">S, Orange</a></span>
-												<span class="cart-price">Rs 16.84</span>
-											</div>
-											<div class="cart-del">
-												<i class="fa fa-times-circle"></i>
-											</div>											
-										</li>
-										<li>
-											<div class="cart-img">
-												<a href="#"><img src="img/cart/1.jpg" alt="" /></a>
-											</div>
-											<div class="cart-content">
-												<h4><a href="#">1 x Faded...</a></h4>
-												<span><a href="#">S, Orange</a></span>
-												<span class="cart-price">Rs 16.84</span>
-											</div>
-											<div class="cart-del">
-												<i class="fa fa-times-circle"></i>
-											</div>											
-										</li>
-										<li class="total-price"><span> Total Rs 48.04 </span></li>
-										<li class="checkout-bg">
-											<a href="checkout.html">checkout <i class="fa fa-angle-right"></i></a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<!-- header-end -->
-		<!-- mainmenu-area-start -->
-		<div class="mainmenu-area home-page-2 mainmenu-area-4" id="main_h">
+	<!-- Add your site or application content here -->
+	<!-- header-start -->
+	<header>
+		<div class="header-top-area ptb-10 hidden-xs header-top-area-4">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12">
-						<div class="mainmenu hidden-xs">
-							<nav>
+					<div class="col-lg-3 col-md-4 col-sm-5">
+						<div class="header-top-right header-top-left-4">
+							<p>FREE SHIPPING ON ORDERS OVER Rs499</p>
+						</div>
+					</div>
+					<div class="col-lg-9 col-md-8 col-sm-7 header-top-right-4">
+
+						<div class="header-top-left">
+							<ul>
+								<li class="click_menu" style="font-size: larger;">
+									<a href="#" style="font-size: larger;">My Account <i
+											class="fa fa-angle-down"></i></a>
+									<ul class="click_menu_show">
+										<li><a href="customer-login.html">Compare Products</a></li>
+										<li><a href="customer-login.html">My Account</a></li>
+										<li><a href="wishlist.html">My Wish List</a></li>
+										<li><a href="login page.html">Sign In</a></li>
+									</ul>
+								</li>
+								<li><a href="login page.html">Create an Account</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom-area home-page-2 ptb-10">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+						<div class="InputContainer">
+							<input placeholder="Search.." id="input" class="input" name="text" type="text">
+							
+						  </div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<!-- <div class="logo logo2">
+								<a href="index.html"><img src="img/logo.png" style="height: 57px; width: 87px;" alt="" /></a>
+							</div>					 -->
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
+						<div class="header-bottom-right-4-inner">
+							<a href="#"><span class="lnr lnr-heart"></span></a>
+						</div>
+						<div class="header-bottom-right header-bottom-right-4">
+							<div class="shop-cart shop-cart-4">
+								<a href="#"><span class="lnr lnr-cart"></span></a>
+							</div>
+							<div class="shop-cart-hover shop-cart-hover-4 fix">
 								<ul>
-									<li class="active"><a href="index.html">Seating</a>
-										<ul>
-											<li><a href="">EXECUTIVE CUSHIONED CHAIRS</a></li>
-											<li><a href="">EXECUTIVE MESH CHAIRS</a></li>
-											<li><a href="">WORKSTATION CHAIRS</a></li>
-											<li><a href="">VISITOR CHAIR</a></li>
-                                            <li><a href="">STOOL</a></li>
-											<li><a href="">RECLINER CHIARS</a></li>
-											<li><a href="">AUDITORIUM CHAIRS</a></li>
-											<li><a href="">ACCESSORIES</a></li>
-										</ul>
-									</li>
-									<li><a href="shop.html">Table</a>
-										<div class="megamenu">
-											<span>
-												<a href="#" class="megatitle">EXCUTIVE MODULAR  TABLES</a>
-												<a href="#">EXECUTIVE TRADITIONAL TABLES</a>
-												<a href="#">COMPUTER TABLES</a>
-												<a href="#">STEEL TABLES</a>
-												<a href="#">ACCESSORIES</a>
-												
-											</span>
-											<!--<span>
-												<a href="#" class="megatitle">Nightstands</a>
-												<a href="#">Brown Finish</a>
-												<a href="#">Distressed</a>
-												<a href="#">Cherry Finish</a>
-												<a href="#">Weathered</a>
-												<a href="#">Laundry</a>
-											</span>
-											<span>
-												<a href="#" class="megatitle">Headboards</a>
-												<a href="#">Upholstered</a>
-												<a href="#">Tufted</a>
-												<a href="#">Storage</a>
-												<a href="#">padded</a>
-												<a href="#">Outdoor</a>
-											</span>-->
+									<li>
+										<div class="cart-img">
+											<a href="#"><img src="img/dinning1.jpg" alt="" /></a>
+										</div>
+										<div class="cart-content">
+											<h4><a href="cart.html">Utkarsh Solid Wood 6 Seater Dining Table</a></h4>
+											<span><a href="#">S, Orange</a></span>
+											<span class="cart-price">₹15000.00</span>
+										</div>
+										<div class="cart-del">
+											<i class="fa fa-times-circle"></i>
 										</div>
 									</li>
-									<li><a href="shop.html">Workstation Furnitures</a>
-										<div class="megamenu megamenu2 living-megamenu">
-											<span>
-												<a href="#" class="megatitle">Living Chairs</a>
-												<a href="#">mattress</a>
-												<a href="#">bunk bed</a>
-												<a href="#">Weathered</a>
-												<a href="#">sideboard</a>
-												<a href="#">Dresses</a>
-											</span>
-											<span>
-												<a href="#" class="megatitle">Bootees Bags</a>
-												<a href="#">Brown Finish</a>
-												<a href="#">Distressed</a>
-												<a href="#">Tufted</a>
-												<a href="#">Cherry Finish</a>
-												<a href="#">Weathered</a>											
-											</span>
-											<span>
-												<a href="#" class="megatitle">Headboards</a>
-												<a href="#">Upholstered</a>
-												<a href="#">Tufted</a>
-												<a href="#">Storage</a>
-												<a href="#">Sweaters</a>
-												<a href="#">padded</a>											
-											</span>
-											<span>
-												<a href="#" class="megatitle">Headboards</a>
-												<a href="#">Upholstered</a>
-												<a href="#">Tufted</a>
-												<a href="#">Storage</a>
-												<a href="#">Wedges</a>
-												<a href="#">padded</a>											
-											</span>
-										</div>									
+									<li>
+										<div class="cart-img">
+											<a href="#"><img src="img/sofa3.jpg" alt="" /></a>
+										</div>
+										<div class="cart-content">
+											<h4><a href="cart.html">Divine Arts Solid Sheesham Wood 5 Seater Sofa
+													Set</a></h4>
+											<span><a href="#">S, Orange</a></span>
+											<span class="cart-price">₹35000.00</span>
+										</div>
+										<div class="cart-del">
+											<i class="fa fa-times-circle"></i>
+										</div>
 									</li>
-									<li><a href="shop.html">Dining Room</a>
-										<div class="megamenu dining-megamenu">
-											<span>
-												<a href="#" class="megatitle">Dining tables</a>
-												<a href="#">Crochet</a>
-												<a href="#">Sleeveless</a>
-												<a href="#">Stripes</a>
-												<a href="#">Sweaters</a>
-											</span>
-											<span>
-												<a href="#" class="megatitle">Dining chairs</a>
-												<a href="#">Dining chairs</a>
-												<a href="#">Ankle</a>
-												<a href="#">Cherry Finish</a>
-												<a href="#">Weathered</a>
-											</span>
-											<span>
-												<a href="#" class="megatitle">Dining sets</a>
-												<a href="#">Upholstered</a>
-												<a href="#">Tufted</a>
-												<a href="#">Footwear</a>
-												<a href="#">Wedges</a>
-											</span>
-										</div>									
+									<li class="total-price"><span> Total Rs 48.04 </span></li>
+									<li class="checkout-bg">
+										<a href="checkout.html">checkout <i class="fa fa-angle-right"></i></a>
 									</li>
-									<li><a href="#">All pages</a>
-										<ul>
-											<li><a href="wishlist.html">my wishlist</a></li>
-											<li><a href="cart.html">cart page</a></li>
-											<li><a href="checkout.html">checkout</a></li>
-											<li><a href="product-details.html">product-details</a></li>
-											<li><a href="user_accountpage.html">User account</a></li>
-											<li><a href="customer-login.html">login</a></li>
-                                            <li><a href="register.html">Register</a></li>
-											<li><a href="shop.html">shop </a></li>
-											<li><a href="contact.html">contact us</a></li>
-										</ul>									
-									</li>
-									<li><a href="contact.html">contact</a></li>
-									
 								</ul>
-							</nav>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="mobile-menu-area hidden-sm hidden-md hidden-lg">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mobile-menu">
-							<nav id="mobile-menu">
-								<ul>
-									<li class="active"><a href="index.html">Home</a>
-										<ul>
-											<li><a href="index.html">home version 1</a></li>
-											<li><a href="index-2.html">home version 2</a></li>
-											<li><a href="index-3.html">home version 3</a></li>
-											<li><a href="index-4.html">home version 4</a></li>
-										</ul>
+	</header>
+	<!-- header-end -->
+	<!-- mainmenu-area-start -->
+	<div class="mainmenu-area home-page-2 mainmenu-area-4" id="main_h">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<div class="mainmenu hidden-xs">
+						<nav>
+							<ul>
+								<li><a href="shop.html">Furniture studio</a>
+									<div class="megamenu">
+										<span>
+											<a href="#" class="megatitle">Sofa Studio </a>
+											<a href="#">TV units & Dinning sets</a>
+											<a href="#">computer table</a>
+											<a href="#">Sofa Beds </a>
+											<a href="#">Living Room Chair</a>
+
+										</span>
+										<span>
+											<a href="#" class="megatitle">Racks</a>
+											<a href="#">Bookssleevs</a>
+											<a href="#">Shooe Racks</a>
+											<a href="#">COMPUTER TABLES</a>
+											<a href="#">Sofa Beds </a>
+											<a href="#">Living Room Chair</a>
+										</span>
+										<span>
+											<a href="#" class="megatitle">Sofa & Sectional</a>
+											<a href="#">Bookssleevs</a>
+											<a href="#">Shooe Racks</a>
+											<a href="#">COMPUTER TABLES</a>
+											<a href="#">Sofa Beds </a>
+											<a href="#">Living Room Chair</a>
+										</span>
+									</div>
+								</li>
+								<li><a href="shop.html">kitchen & Dinning</a>
+									<div class="megamenu">
+										<span>
+											<a href="#" class="megatitle">kitchen Sets</a>
+											<a href="#">Metal Table</a>
+											<a href="#">Glass stove & Accessories</a>
+											<a href="#">stell tables</a>
+											<a href="#">Container & kitchen Storage</a>
+
+										</span>
+										<span>
+											<a href="#" class="megatitle">Accessories</a>
+											<a href="#">Metal Table</a>
+											<a href="#">Glass stove & Accessories</a>
+											<a href="#">stell tables</a>
+											<a href="#">Container & kitchen Storage</a>
+											<a href="#">Outdoor Cooking</a>
+										</span>
+										<span>
+											<a href="#" class="megatitle">Dinning</a>
+											<a href="#">Metal Table</a>
+											<a href="#">Glass stove & Accessories</a>
+											<a href="#">stell tables</a>
+											<a href="#">Container & kitchen Storage</a>
+											<a href="#">Outdoor Cooking</a>
+										</span>
+									</div>
+								</li>
+								<li><a href="shop.html">Bedroom Furniture</a>
+									<div class="megamenu megamenu2 living-megamenu">
+										<span>
+											<a href="#" class="megatitle">Living Chairs</a>
+											<a href="#">mattress</a>
+											<a href="#">bunk bed</a>
+											<a href="#">Weathered</a>
+											<a href="#">sideboard</a>
+											<a href="#">Dresses</a>
+										</span>
+										<span>
+											<a href="#" class="megatitle">Bootees Bags</a>
+											<a href="#">mattress</a>
+											<a href="#">bunk bed</a>
+											<a href="#">Weathered</a>
+											<a href="#">sideboard</a>
+											<a href="#">Dresses</a>
+										</span>
+										<span>
+											<a href="#" class="megatitle">Racks</a>
+											<a href="#">Bookssleevs</a>
+											<a href="#">Shooe Racks</a>
+											<a href="#">COMPUTER TABLES</a>
+											<a href="#">Sofa Beds </a>
+											<a href="#">Living Room Chair</a>
+										</span>
+										<span>
+											<a href="#" class="megatitle">Racks</a>
+											<a href="#">Bookssleevs</a>
+											<a href="#">Shooe Racks</a>
+											<a href="#">COMPUTER TABLES</a>
+											<a href="#">Sofa Beds </a>
+											<a href="#">Living Room Chair</a>
+										</span>
+									</div>
+								</li>
+								<li><a href="shop.html">Kids Furniture</a>
+									<div class="megamenu dining-megamenu">
+										<span>
+											<a href="#" class="megatitle">Dining tables</a>
+											<a href="#">TV units & Dinning sets</a>
+											<a href="#">COMPUTER TABLES</a>
+											<a href="#">Sofa Beds </a>
+											<a href="#">Living Room Chair</a>
+										</span>
+										<span>
+											<a href="#" class="megatitle">Dining chairs</a>
+											<a href="#">Dining chairs</a>
+											<a href="#">Ankle</a>
+											<a href="#">Cherry Finish</a>
+											<a href="#">Weathered</a>
+										</span>
+										<span>
+											<a href="#" class="megatitle">Dining sets</a>
+											<a href="#">Upholstered</a>
+											<a href="#">Tufted</a>
+											<a href="#">Footwear</a>
+											<a href="#">Wedges</a>
+										</span>
+									</div>
+								</li>
+								<li><a href="shop.html">Lighting & Electrical</a>
+									<div class="megamenu dining-megamenu">
+										<span>
+											<a href="#" class="megatitle">Sofa Studio </a>
+											<a href="#">TV units & Dinning sets</a>
+											<a href="#">computer table</a>
+											<a href="#">Sofa Beds </a>
+											<a href="#">Living Room Chair</a>
+										</span>
+										<span>
+											<a href="#" class="megatitle">Dining chairs</a>
+											<a href="#">Dining chairs</a>
+											<a href="#">Ankle</a>
+											<a href="#">Cherry Finish</a>
+											<a href="#">Weathered</a>
+										</span>
+										<span>
+											<a href="#" class="megatitle">Sofa Studio </a>
+											<a href="#">TV units & Dinning sets</a>
+											<a href="#">computer table</a>
+											<a href="#">Sofa Beds </a>
+											<a href="#">Living Room Chair</a>
+										</span>
+									</div>
+								</li>
+
+
+								<li><a href="#">All pages</a>
+									<ul>
+										<li><a href="wishlist.html">my wishlist</a></li>
+										<li><a href="cart.html">cart page</a></li>
+										<li><a href="checkout.html">checkout</a></li>
+										<li><a href="product-details.html">product-details</a></li>
+										<li><a href="user_accountpage.html">User account</a></li>
+										<li><a href="customer-login.html">login</a></li>
+										<li><a href="register.html">Register</a></li>
+										<li><a href="shop.html">shop </a></li>
+										<li><a href="contact.html">contact us</a></li>
+									</ul>
+								</li>
+
+								<li><a href="contact.html">contact</a></li>
+
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mobile-menu-area hidden-sm hidden-md hidden-lg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mobile-menu">
+						<nav id="mobile-menu">
+							<ul>                
+								<li class="active"><a href="index.html">Home</a>
+									<ul>
+										<li><a href="index.html">home version 1</a></li>
+										<li><a href="index-2.html">home version 2</a></li>
+										<li><a href="index-3.html">home version 3</a></li>
+										<li><a href="index-4.html">home version 4</a></li>
+									</ul>
+								</li>
+								<li><a href="shop.html">Bedroom</a>
+									<ul>
+										<li><a href="#">Beds</a>
+											<ul>
+												<li><a href="#">Platform Beds</a></li>
+												<li><a href="#">Storage Beds</a></li>
+												<li><a href="#">Regular Beds</a></li>
+												<li><a href="#">Sleigh Beds</a></li>
+												<li><a href="#">modern beds</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Nightstands</a>
+											<ul>
+												<li><a href="#">Brown Finish</a></li>
+												<li><a href="#">Distressed</a></li>
+												<li><a href="#">Cherry Finish</a></li>
+												<li><a href="#">Weathered</a></li>
+												<li><a href="#">Laundry</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Headboards</a>
+											<ul>
+												<li><a href="#">Upholstered</a></li>
+												<li><a href="#">Tufted</a></li>
+												<li><a href="#">Platform Beds</a></li>
+												<li><a href="#">Platform Beds</a></li>
+												<li><a href="#">Platform Beds</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><a href="shop.html">Living Room </a>
+									<ul>
+										<li><a href="#">Beds</a>
+											<ul>
+												<li><a href="#">Platform Beds</a></li>
+												<li><a href="#">Storage Beds</a></li>
+												<li><a href="#">Regular Beds</a></li>
+												<li><a href="#">Sleigh Beds</a></li>
+												<li><a href="#">modern beds</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Nightstands</a>
+											<ul>
+												<li><a href="#">Brown Finish</a></li>
+												<li><a href="#">Distressed</a></li>
+												<li><a href="#">Cherry Finish</a></li>
+												<li><a href="#">Weathered</a></li>
+												<li><a href="#">Laundry</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Headboards</a>
+											<ul>
+												<li><a href="#">Upholstered</a></li>
+												<li><a href="#">Tufted</a></li>
+												<li><a href="#">Platform Beds</a></li>
+												<li><a href="#">Platform Beds</a></li>
+												<li><a href="#">Platform Beds</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Headboards</a>
+											<ul>
+												<li><a href="#">Platform Beds</a></li>
+												<li><a href="#">Storage Beds</a></li>
+												<li><a href="#">Regular Beds</a></li>
+												<li><a href="#">Sleigh Beds</a></li>
+												<li><a href="#">modern beds</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><a href="shop.html">Dining Room</a>
+									<ul>
+										<li><a href="#">Dining tables</a>
+											<ul>
+												<li><a href="#">Crochet</a></li>
+												<li><a href="#">Sleeveless</a></li>
+												<li><a href="#">Regular Beds</a></li>
+												<li><a href="#">Stripes</a></li>
+												<li><a href="#">Sweaters</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Dining chairs</a>
+											<ul>
+												<li><a href="#">Ankle</a></li>
+												<li><a href="#">Distressed</a></li>
+												<li><a href="#">Cherry Finish</a></li>
+												<li><a href="#">Weathered</a></li>
+												<li><a href="#">Laundry</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Headboards</a>
+											<ul>
+												<li><a href="#">Upholstered</a></li>
+												<li><a href="#">Tufted</a></li>
+												<li><a href="#">Phery Finiss</a></li>
+												<li><a href="#">Platform Beds</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><a href="shop.html">pages</a>
+									<ul>
+										<li><a href="wishlist.html">my wishlist</a></li>
+										<li><a href="cart.html">cart page</a></li>
+										<li><a href="checkout.html">checkout</a></li>
+										<li><a href="product-details.html">product-details</a></li>
+										<li><a href="user_accountpage.html">User account</a></li>
+										<li><a href="customer-login.html">login</a></li>
+										<li><a href="register.html">Register</a></li>
+										<li><a href="shop.html">shop </a></li>
+										<li><a href="contact.html">contact us</a></li>
+									</ul>
+								</li>
+								<li><a href="contact.html">contact</a></li>
+								<li><a href="blog.html">blog</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="tg-may-account-wrapp tg">
+		<div class="inner">
+			<div class="tg-account">
+
+				<!-- Accont banner start -->
+				<div class="account-banner">
+					<div class="inner-banner">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 detail">
+									<div class="inner">
+										<h1 class="page-title">My Account</h1>
+										<h3 class="user-name">Hello Vicky!</h3>
+										<p class="description">Aspernatur magni in repellat repellendus itaque
+											consequuntur alias necessitatibus.</p>
+									</div>
+								</div>
+								<!-- Column end -->
+								<div class="col-md-4 profile">
+									<div class="profile">
+										<span class="image">
+											<img src="img/image.png" alt="vicky">
+										</span>
+									</div>
+								</div>
+								<!-- Column end -->
+							</div>
+							<!-- Row end -->
+
+							<!-- Navbar Start -->
+							<div class="nav-area">
+								<ul class="nav nav-tabs" id="myTab" role="tablist">
+									<li class="nav-item">
+										<a class="nav-link active" id="dashboard-link" data-toggle="tab"
+											href="#dashboard" role="tab" aria-controls="dashboard"
+											aria-selected="true"><i class="fas fa-tachometer-alt"></i>
+											<span>Dashboard</span></a>
 									</li>
-									<li><a href="shop.html">Bedroom</a>
-										<ul>
-											<li><a href="#">Beds</a>
-												<ul>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Storage Beds</a></li>
-													<li><a href="#">Regular Beds</a></li>
-													<li><a href="#">Sleigh Beds</a></li>
-													<li><a href="#">modern beds</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Nightstands</a>
-												<ul>
-													<li><a href="#">Brown Finish</a></li>
-													<li><a href="#">Distressed</a></li>
-													<li><a href="#">Cherry Finish</a></li>
-													<li><a href="#">Weathered</a></li>
-													<li><a href="#">Laundry</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Headboards</a>
-												<ul>
-													<li><a href="#">Upholstered</a></li>
-													<li><a href="#">Tufted</a></li>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Platform Beds</a></li>
-												</ul>
-											</li>
-										</ul>
+									<li class="nav-item">
+										<a class="nav-link" id="my-order" data-toggle="tab" href="#my-orders" role="tab"
+											aria-controls="my-orders" aria-selected="false"><i
+												class="fas fa-file-invoice"></i> <span>Orders</span></a>
 									</li>
-									<li><a href="shop.html">Living Room	</a>
-										<ul>
-											<li><a href="#">Beds</a>
-												<ul>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Storage Beds</a></li>
-													<li><a href="#">Regular Beds</a></li>
-													<li><a href="#">Sleigh Beds</a></li>
-													<li><a href="#">modern beds</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Nightstands</a>
-												<ul>
-													<li><a href="#">Brown Finish</a></li>
-													<li><a href="#">Distressed</a></li>
-													<li><a href="#">Cherry Finish</a></li>
-													<li><a href="#">Weathered</a></li>
-													<li><a href="#">Laundry</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Headboards</a>
-												<ul>
-													<li><a href="#">Upholstered</a></li>
-													<li><a href="#">Tufted</a></li>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Platform Beds</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Headboards</a>
-												<ul>
-													<li><a href="#">Upholstered</a></li>
-													<li><a href="#">Tufted</a></li>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Platform Beds</a></li>
-													<li><a href="#">Platform Beds</a></li>
-												</ul>
-											</li>
-										</ul>
+									<li class="nav-item">
+										<a class="nav-link" id="my-address" data-toggle="tab" href="#address" role="tab"
+											aria-controls="address" aria-selected="false"><i
+												class="fas fa-map-marker-alt"></i> <span>Address</span></a>
 									</li>
-									<li><a href="shop.html">Dining Room</a>
-										<ul>
-											<li><a href="#">Dining tables</a>
-												<ul>
-													<li><a href="#">Crochet</a></li>
-													<li><a href="#">Sleeveless</a></li>
-													<li><a href="#">Regular Beds</a></li>
-													<li><a href="#">Stripes</a></li>
-													<li><a href="#">Sweaters</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Dining chairs</a>
-												<ul>
-													<li><a href="#">Ankle</a></li>
-													<li><a href="#">Distressed</a></li>
-													<li><a href="#">Cherry Finish</a></li>
-													<li><a href="#">Weathered</a></li>
-													<li><a href="#">Laundry</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Headboards</a>
-												<ul>
-													<li><a href="#">Upholstered</a></li>
-													<li><a href="#">Tufted</a></li>
-													<li><a href="#">Phery Finiss</a></li>
-													<li><a href="#">Platform Beds</a></li>
-												</ul>
-											</li>
-										</ul>
+									<li class="nav-item">
+										<a class="nav-link" id="account-detail" data-toggle="tab"
+											href="#account-details" role="tab" aria-controls="account-details"
+											aria-selected="false"><i class="fas fa-user-alt"></i> <span>Account
+												Details</span></a>
 									</li>
-									<li><a href="shop.html">pages</a>
-										<ul>
-											<li><a href="wishlist.html">my wishlist</a></li>
-											<li><a href="cart.html">cart page</a></li>
-											<li><a href="checkout.html">checkout</a></li>
-											<li><a href="product-details.html">product-details</a></li>
-											<li><a href="user_accountpage.html">User account</a></li>
-											<li><a href="customer-login.html">login</a></li>
-                                            <li><a href="register.html">Register</a></li>
-											<li><a href="shop.html">shop </a></li>
-											<li><a href="contact.html">contact us</a></li>
-										</ul>									
+									<li class="nav-item">
+										<a class="nav-link" id="logout" data-toggle="tab" href="#logout" role="tab"
+											aria-controls="logout" aria-selected="false"><i
+												class="fas fa-sign-out-alt"></i> <span>Logout</span></a>
 									</li>
-									<li><a href="contact.html">contact</a></li>
-									<li><a href="blog.html">blog</a></li>
 								</ul>
-							</nav>
+							</div>
+							<!-- Navbar End -->
+						</div>
+					</div>
+				</div>
+				<!-- Banner end   -->
+
+				<!-- Tabs Content start -->
+				<div class="tabs tg-tabs-content-wrapp">
+					<div class="inner">
+						<div class="container">
+							<div class="inner">
+								<div class="tab-content" id="myTabContent">
+									<div class="tab-pane fade show active" id="dashboard" role="tabpanel"
+										aria-labelledby="dashboard-link">
+										<div class="my-account-dashboard">
+											<div class="inner">
+												<div class="row">
+													<div class="col-md-4 mb-3">
+														<div class="card" area-toggle="my-order">
+															<div class="card-body">
+																<div class="text-center">
+																	<a><img
+																			src="https://res.cloudinary.com/templategalaxy/image/upload/v1631257421/codepen-my-account/images/orders_n2aopq.png"></a>
+																</div>
+																<h2>Your Orders</h2>
+																<p>Lorem Ipsum is simply dummy text of the printing and
+																	typesetting industry.</p>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 mb-3">
+														<div class="card" area-toggle="my-address">
+															<div class="card-body">
+																<div class="text-center">
+																	<a><img
+																			src="https://res.cloudinary.com/templategalaxy/image/upload/v1631257421/codepen-my-account/images/notebook_psrhv5.png"></a>
+																</div>
+																<h2>Your Addresses</h2>
+																<p>Lorem Ipsum is simply dummy text of the printing and
+																	typesetting industry.</p>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 mb-3">
+														<div class="card" area-toggle="account-detail">
+															<div class="card-body">
+																<div class="text-center">
+																	<a><img
+																			src="https://res.cloudinary.com/templategalaxy/image/upload/v1631257421/codepen-my-account/images/login_aq9v9z.png"></a>
+																</div>
+																<h2>Account Details</h2>
+																<p>Lorem Ipsum is simply dummy text of the printing and
+																	typesetting industry.</p>
+															</div>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="my-orders" role="tabpanel"
+										aria-labelledby="my-order">
+										<table id="my-orders-table"
+											class="table table-striped table-bordered dt-responsive nowrap"
+											style="width:100%">
+											<thead>
+												<tr>
+													<th>Order</th>
+													<th>Date</th>
+													<th>Status</th>
+													<th>Total</th>
+													<th class="action">Action</th>
+												</tr>
+											</thead>
+											<tbody>
+
+												<tr>
+													<td>#8083</td>
+													<td>Sep 9, 2021</td>
+													<td>Completed</td>
+													<td>$350</td>
+													<td class="action"><a href="#" class="view-order">View Order</a>
+													</td>
+												</tr>
+
+												<tr>
+													<td>#8283</td>
+													<td>Sep 8, 2021</td>
+													<td>Pending</td>
+													<td>$190</td>
+													<td class="action"><a href="#" class="view-order">View Order</a>
+													</td>
+												</tr>
+
+												<tr>
+													<td>#8483</td>
+													<td>Sep 7, 2021</td>
+													<td>Completed</td>
+													<td>$399</td>
+													<td class="action"><a href="#" class="view-order">View Order</a>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="tab-pane fade" id="address" role="tabpanel"
+										aria-labelledby="my-address">
+										<div class="address-form">
+											<div class="inner">
+												<form class="tg-form" action="" method="">
+
+													<div class="form-group">
+														<label for="inputAddress">Address</label>
+														<input type="text" class="form-control" id="inputAddress"
+															placeholder="1234 Main St">
+													</div>
+													<div class="form-group">
+														<label for="inputAddress2">Address 2</label>
+														<input type="text" class="form-control" id="inputAddress2"
+															placeholder="Apartment, studio, or floor">
+													</div>
+													<div class="form-row">
+														<div class="form-group col-md-6">
+															<label for="inputCity">City</label>
+															<input type="text" class="form-control" id="inputCity">
+														</div>
+														<div class="form-group col-md-4">
+															<label for="inputState">State</label>
+															<select id="inputState" class="form-control">
+																<option selected>Choose...</option>
+																<option>...</option>
+															</select>
+														</div>
+														<div class="form-group col-md-2">
+															<label for="inputZip">Zip</label>
+															<input type="text" class="form-control" id="inputZip">
+														</div>
+													</div>
+
+													<button type="submit" class="btn btn-primary">Update</button>
+												</form>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="account-details" role="tabpanel"
+										aria-labelledby="account-detail">
+										<div class="account-detail-form">
+											<div class="inner">
+												<form class="tg-form" action="" method="">
+													<div class="form-row">
+														<div class="form-group col-md-6">
+															<label for="inputfname">First Name</label>
+															<input type="text" class="form-control" id="inputfname"
+																placeholder="First Name">
+														</div>
+														<div class="form-group col-md-6">
+															<label for="inputlname">Last Name</label>
+															<input type="text" class="form-control" id="inputlname"
+																placeholder="Last Name">
+														</div>
+
+														<div class="form-group col-md-12">
+															<label for="inputdname">Display Name</label>
+															<input type="text" class="form-control" id="inputdname"
+																placeholder="Display Name">
+														</div>
+
+														<div class="form-group col-md-12">
+															<label for="inputEmail4">Email</label>
+															<input type="email" class="form-control" id="inputEmail4"
+																placeholder="Email">
+														</div>
+														<div class="form-group col-md-12">
+															<label for="inputdob">Birthdate</label>
+															<input type="text" class="form-control" id="inputdob"
+																placeholder="MM/DD/YYYY">
+														</div>
+													</div>
+
+
+													<button type="submit" class="btn btn-primary">Update</button>
+												</form>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- mainmenu-area-end -->
-		<!-- page-title-wrapper-start -->
-		<div class="page-title-wrapper">
+	</section>
+	<!-- mainmenu-area-end -->
+	<!-- page-title-wrapper-start -->
+
+	<!-- <div class="page-title-wrapper">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -438,10 +725,10 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- page-title-wrapper-end -->
-		<!-- contuct-form-area-start -->
-			<div class="login-area ptb-80">
+		</div> -->
+	<!-- page-title-wrapper-end -->
+	<!-- contuct-form-area-start -->
+	<!-- <div class="login-area ptb-80">
 				<div class="container">
 					<div class="row">
 						<div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -475,159 +762,190 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		<!-- contuct-form-area-end -->
-		<!-- contact-area-start -->
-		<div class="contact-area ptb-40">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mar_b-30">
-						<div class="contuct-info text-center">
-							<h4>Sign up for news & offers!</h4>
-							<p>You may safely unsubscribe at any time</p>
-						</div>
+			</div> -->
+	<!-- contuct-form-area-end -->
+	<!-- contact-area-start -->
+	<div class="contact-area ptb-40">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mar_b-30">
+					<div class="contuct-info text-center">
+						<h4>Sign up for news & offers!</h4>
+						<p>You may safely unsubscribe at any time</p>
 					</div>
-					<div class="col-lg-6 col-md-8 col-sm-12 col-lg-offset-1 col-xs-12">
-						<div class="search-box">
-							<form action="#">
-								<input type="email" placeholder="Enter your email address"/>
-								<button><span class="lnr lnr-envelope"></span></button>
-							</form>
-						</div>
+				</div>
+				<div class="col-lg-6 col-md-8 col-sm-12 col-lg-offset-1 col-xs-12">
+					<div class="search-box">
+						<form action="#">
+							<input type="email" placeholder="Enter your email address" />
+							<button><span class="lnr lnr-envelope"></span></button>
+						</form>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- contact-area-end -->
-		<!-- footer-area-start -->
-		<div class="footer-area footer-area-4 ptb-80">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 mar_b-30">
+	</div>
+	<!-- contact-area-end -->
+	<!-- footer-area-start -->
+	<div class="footer-area footer-area-4 ptb-80">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 mar_b-30">
+					<div class="footer-wrapper">
+						<div class="footer-logo">
+							<a href="#"><img src="img/logo.png" alt="" style="height: 80px; width: 80px;"></a>
+						</div>
+						
+						<ul>
+							<li>
+								<span>Address : </span> Bhubaneswar odisha
+							</li>
+							<li>
+								<span>Phone: </span> 7847077422
+							</li>
+							<li>
+								<span>Email:</span> <a href="#">vickymuduli3083@gmail.com</a>
+							</li>
+						</ul>
+						<ul class="footer-social">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fa fa-flickr"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-3 hidden-sm col-xs-12 mar_b-30">
+					<div class="footer-wrapper">
+						<div class="footer-title">
+							<a href="#">
+								<h3>useful links</h3>
+							</a>
+						</div>
 						<div class="footer-wrapper">
-							<div class="footer-logo">
-								<a href="#"><img src="img/logo-4.png" alt="" /></a>
-							</div>
-							<p>We are a team of designers and developers that create high quality Magento, Prestashop, Opencart themes and provide premium and  support to our products.</p>
-							<ul>
-								<li>
-									<span>Address : </span> Delhi india
-								</li>
-								<li>
-									<span>Phone: </span> 123445689
-								</li>
-								<li>
-									<span>Email:</span> <a href="#">admin@dsfbvbbdvgz.company</a>
-								</li>
+							<ul class="usefull-link">
+								<li><a href="#">Contact us</a></li>
+								<li><a href="#">Site map</a></li>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Specials</a></li>
+								<li><a href="#">My Cart</a></li>
+								<li><a href="#">Wishlist</a></li>
+								<li><a href="#">Custom service</a></li>
 							</ul>
-							<ul class="footer-social">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-flickr"></i></a></li>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 hidden-md hidden-sm col-xs-12 mar_b-30">
+					<div class="footer-wrapper">
+						<div class="footer-title">
+							<a href="#">
+								<h3>useful links</h3>
+							</a>
+						</div>
+						<div class="footer-wrapper">
+							<ul class="usefull-link">
+								<li><a href="#">Contact us</a></li>
+								<li><a href="#">Site map</a></li>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Specials</a></li>
+								<li><a href="#">My Cart</a></li>
+								<li><a href="#">Wishlist</a></li>
+								<li><a href="#">Custom service</a></li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-lg-2 col-md-3 hidden-sm col-xs-12 mar_b-30">
-						<div class="footer-wrapper">
-							<div class="footer-title">
-								<a href="#"><h3>useful links</h3></a>
-							</div>
-							<div class="footer-wrapper">
-								<ul class="usefull-link">
-									<li><a href="#">Contact us</a></li>
-									<li><a href="#">Site map</a></li>
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Specials</a></li>
-									<li><a href="#">My Cart</a></li>
-									<li><a href="#">Wishlist</a></li>
-									<li><a href="#">Custom service</a></li>
-								</ul>
-							</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="footer-wrapper">
+						<div class="footer-title">
+							<a href="#">
+								<h3>useful links</h3>
+							</a>
 						</div>
-					</div>
-					<div class="col-lg-3 hidden-md hidden-sm col-xs-12 mar_b-30">
 						<div class="footer-wrapper">
-							<div class="footer-title">
-								<a href="#"><h3>useful links</h3></a>
-							</div>
-							<div class="footer-wrapper">
-								<ul class="usefull-link">
-									<li><a href="#">Contact us</a></li>
-									<li><a href="#">Site map</a></li>
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Specials</a></li>
-									<li><a href="#">My Cart</a></li>
-									<li><a href="#">Wishlist</a></li>
-									<li><a href="#">Custom service</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-						<div class="footer-wrapper">
-							<div class="footer-title">
-								<a href="#"><h3>useful links</h3></a>
-							</div>
-							<div class="footer-wrapper">
-								<ul class="usefull-link">
-									<li><a href="#">Contact us</a></li>
-									<li><a href="#">Site map</a></li>
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Specials</a></li>
-									<li><a href="#">My Cart</a></li>
-									<li><a href="#">Wishlist</a></li>
-									<li><a href="#">Custom service</a></li>
-								</ul>
-							</div>
+							<ul class="usefull-link">
+								<li><a href="#">Contact us</a></li>
+								<li><a href="#">Site map</a></li>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Specials</a></li>
+								<li><a href="#">My Cart</a></li>
+								<li><a href="#">Wishlist</a></li>
+								<li><a href="#">Custom service</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- footer-area-end -->
-		<!-- .copyright-area-start -->
-		<div class="copyright-area">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mar_b-30">
-						<div class="copyright text-left">
-							<p>2016 @ All Rights Reserved - <a href="#"></a></p>
-						</div>
+	</div>
+	<!-- footer-area-end -->
+	<!-- .copyright-area-start -->
+	<div class="copyright-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mar_b-30">
+					<div class="copyright text-left">
+						<p>2023 @ All Rights Reserved - <a href="#"></a></p>
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<div class="copyright-img text-right">
-							<a href="#"><img src="img/payment.png" alt="" /></a>
-						</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<div class="copyright-img text-right">
+						<a href="#"><img src="img/payment.png" alt="" /></a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- .copyright-area-end -->
-		
-		<!-- all js here -->
-		<!-- jquery latest version -->
-        <script src="js/vendor/jquery-1.12.0.min.js"></script>
-		<!-- bootstrap js -->
-        <script src="js/bootstrap.min.js"></script>
-		<!-- owl.carousel js -->
-        <script src="js/owl.carousel.min.js"></script>
-		<!-- meanmenu js -->
-        <script src="js/jquery.meanmenu.js"></script>
-		<!-- jquery-ui js -->
-        <script src="js/jquery-ui.min.js"></script>
-		<!-- nivo.slider js -->
-        <script src="js/jquery.nivo.slider.js"></script>
-		<!-- magnific-popup js -->
-        <script src="js/jquery.magnific-popup.min.js"></script>		
-		<!-- wow js -->
-        <script src="js/wow.min.js"></script>
-		<!-- scrolly js -->
-        <script src="js/jquery.scrolly.js"></script>		
-		<!-- plugins js -->
-        <script src="js/plugins.js"></script>
-		<!-- main js -->
-        <script src="js/main.js"></script>
-    </body>
+	</div>
+	<script>
+		$('#myTab a').on('click', function(e) {
+    e.preventDefault()
+    $(this).tab('show')
+});
+
+/**
+ * Datatable call
+ */
+$(document).ready(function() {
+    $('#my-orders-table').DataTable();
+});
+
+/**
+ * My account nav click
+ */
+$(document).ready(function() {
+    $('.tg-tabs-content-wrapp .my-account-dashboard .card').click(function() {
+
+        var ariaClick = $(this).attr('area-toggle');
+        $('.tg-account .account-banner .nav-area  a#' + ariaClick).click();
+    });
+});
+	</script>
+	<!-- .copyright-area-end -->
+
+	<!-- all js here -->
+	<!-- jquery latest version -->
+	<script src="js/vendor/jquery-1.12.0.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- owl.carousel js -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- meanmenu js -->
+	<script src="js/jquery.meanmenu.js"></script>
+	<!-- jquery-ui js -->
+	<script src="js/jquery-ui.min.js"></script>
+	<!-- nivo.slider js -->
+	<script src="js/jquery.nivo.slider.js"></script>
+	<!-- magnific-popup js -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<!-- wow js -->
+	<script src="js/wow.min.js"></script>
+	<!-- scrolly js -->
+	<script src="js/jquery.scrolly.js"></script>
+	<!-- plugins js -->
+	<script src="js/plugins.js"></script>
+	<!-- main js -->
+	<script src="js/main.js"></script>
+</body>
+
 </html>

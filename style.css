@@ -2,7 +2,7 @@
 
 html, body {height: 100%;}
 body {
-    color: #666666;
+    color: #276577;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     line-height: 1.42857;
@@ -38,7 +38,7 @@ ul{
 .clear{clear:both}
 body {}
 ::-moz-selection {
-	background: #b3d4fc;
+	background: #268cab;
 	text-shadow: none;
 }
 ::selection {
@@ -74,9 +74,9 @@ body {}
 .bg-color-1{background:#2E2D25;}
 /* scrollUp-start */
 #scrollUp {
-	background: #333333 none repeat scroll 0 0;
+	background: #1c5773 none repeat scroll 0 0;
 	border: 2px solid #ffffff;
-	border-radius: 50%;
+	border-radius: 20%;
 	bottom: 20px;
 	color: #ffffff;
 	display: flex;
@@ -91,7 +91,7 @@ body {}
 	width: 40px;
 }
 #scrollUp:hover{
-	background:#9d297e;
+	background:#ffc918;
 }
 
 /* .sticky */
@@ -375,7 +375,232 @@ body {}
 	padding: 10px 0;
 	text-transform: capitalize;
 }
+.tg {
+    --bg-primary: #207ba1;
+    --text-primary: #207ba1;
+}
 
+.tg-account .account-banner {
+    background: var(--bg-primary);
+    width: 100%;
+    float: left;
+    padding: 100px 0 0;
+}
+
+.tg-account .account-banner .inner-banner .detail * {
+    color: #fff;
+}
+
+.tg-account .account-banner .inner-banner .profile {
+    text-align: center;
+}
+
+.tg-account .account-banner .inner-banner .profile span.image img {
+    width: 130px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px -10px #000;
+}
+
+.tg-account .account-banner .inner-banner .detail h3.user-name {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.tg-account .account-banner .inner-banner .nav-area {
+    width: 100%;
+    float: left;
+    margin-top: 45px;
+}
+
+.tg-account .account-banner .inner-banner .nav-area ul li a {
+    background: rgba(255, 255, 255, .4);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 0px;
+    font-size: 16px;
+    border: none;
+    padding: 10px 28px;
+    min-width: 120px;
+    display: block;
+    transition: .4s;
+    text-align: center;
+}
+
+.tg-account .account-banner .inner-banner .nav-area ul li {
+    margin-right: 7px;
+}
+
+.tg-account .account-banner .inner-banner .nav-area ul li a.active,
+.tg-account .account-banner .inner-banner .nav-area ul li a:hover {
+    color: var(--text-primary);
+    background: #fff;
+}
+
+.tg-tabs-content-wrapp {
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+}
+
+div#my-orders-table_length {
+    width: fit-content;
+    float: left;
+}
+
+div#my-orders-table_filter {
+    width: fit-content;
+    float: right;
+}
+
+div#my-orders-table_length select,
+div#my-orders-table_filter input {
+    border: 1px solid #207ba1;
+    padding: 5px 15px;
+}
+
+div#my-orders-table_length,
+div#my-orders-table_filter {
+    margin-bottom: 22px;
+}
+
+.tg-tabs-content-wrapp form.tg-form {
+    width: 100%;
+    float: left;
+    background: #f7f7f7;
+    padding: 30px 30px 60px;
+    border: 1px solid #eaeaea;
+}
+
+.tg-tabs-content-wrapp form.tg-form button {
+    background: var(--bg-primary);
+    border: none;
+    padding: 10px 32px;
+    cursor: pointer;
+    margin: 13px 0 0;
+}
+
+.tg-tabs-content-wrapp .my-account-dashboard .card img {
+    max-width: 80px;
+}
+
+.tg-tabs-content-wrapp .my-account-dashboard .card {
+    text-align: center;
+}
+
+.tg-tabs-content-wrapp .my-account-dashboard .card h2 {
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+.tg-tabs-content-wrapp .my-account-dashboard .card p {
+    font-size: 15px;
+}
+
+div#my-orders-table_info {
+    float: left;
+}
+
+div#my-orders-table_paginate {
+    float: right;
+}
+
+.page-item.active .page-link {
+    background-color: lightgrey !important;
+    border: 1px solid black;
+}
+
+.page-link {
+    color: black !important;
+}
+
+div#my-orders-table_paginate a {
+    background: #e6e6e6;
+    margin: 0 2px;
+    padding: 3px 11px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+div#my-orders-table_paginate {
+    margin-top: 8px;
+}
+
+div#my-orders-table_paginate span a.current {
+    color: #fff !important;
+    background: var(--primary);
+}
+
+.tg-tabs-content-wrapp .my-account-dashboard .card {
+    cursor: pointer;
+}
+
+.tg-tabs-content-wrapp .my-account-dashboard .card:hover,
+.tg-tabs-content-wrapp .my-account-dashboard .card.active {
+    background: var(--text-primary);
+}
+
+.tg-tabs-content-wrapp .my-account-dashboard .card:hover *,
+.tg-tabs-content-wrapp .my-account-dashboard .card.active * {
+    color: #fff;
+}
+
+.tg-tabs-content-wrapp .my-account-dashboard .card {
+    transition: .4s;
+    border-radius: 0px;
+    box-shadow: 0px 2px 7px -5px;
+}
+
+table#my-orders-table a.view-order {
+    background: var(--text-primary);
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 11px;
+    border-radius: 3px;
+}
+
+@media(min-width:768px) {
+    table#my-orders-table td.action,
+    table#my-orders-table th.action {
+        text-align: center;
+    }
+}
+
+@media(max-width:768px) {
+    .tg-account .account-banner .inner-banner .nav-area ul li a {
+        min-width: auto !important;
+        padding: 8px 15px;
+    }
+}
+
+@media(max-width:600px) {
+    .tg-account .account-banner .inner-banner .nav-area ul li a span {
+        display: none;
+    }
+    .tg-account .account-banner .inner-banner .nav-area ul li a {
+        min-width: auto;
+        padding: 8px 20px;
+    }
+    .tg-account .account-banner .inner-banner .nav-area ul {
+        text-align: center;
+        margin: 0 auto;
+        width: fit-content;
+    }
+    .tg-account .detail {
+        text-align: center;
+    }
+    div#my-orders-table_length select,
+    div#my-orders-table_filter input {
+        max-width: 120px;
+        font-size: 14px;
+    }
+    div#my-orders-table_length label,
+    div#my-orders-table_filter label {
+        font-size: 0px;
+    }
+}
 /* ---------3.Mainmenu-Area-Start---------- */
 .mainmenu{}
 .mainmenu ul{}
@@ -398,7 +623,7 @@ body {}
 	transition:all.3s;
 }
 .mainmenu ul li:hover > a,.mainmenu ul li.active > a{
-	color:#9d297e; 
+	color:#1c5773; 
 }
 .mainmenu ul li ul {
 	background: #ffffff none repeat scroll 0 0;
@@ -431,7 +656,7 @@ body {}
 	font-weight: 500;
 }
 .mainmenu ul li > ul li > a:hover{
-	color:#9d297e;
+	color:#1c5773;
 	transition:none;
 } 
 /* megamenu */
@@ -475,7 +700,7 @@ body {}
 	overflow:hidden;
 }
 .mainmenu ul li .megamenu span a:hover{
-	color:#9d297e;
+	color:#1c5773;
 	transition:none;
 }
 .mainmenu ul li .megamenu2{
@@ -620,10 +845,10 @@ body {}
     margin-top: 45px;
 }
 .slider-area.slider-area-4 .slider-btn > a {
-    background: #9d297e;
+    background: #1c5773;
 }
 .slider-btn > a {
-	background: #9d297e none repeat scroll 0 0;
+	background: #1c5773 none repeat scroll 0 0;
 	color: #ffffff;
 	display: inline-block;
 	font-size: 13px;
@@ -659,7 +884,7 @@ body {}
     background: #e73b49 none repeat scroll 0 0;
 }
 .slider-area-4 .nivo-control.active {
-  background: #9d297e;
+  background: #1c5773;
 }
 /* ---------5.Service-Area-Start---------- */
 .service-area.home-page-2 {
@@ -720,10 +945,10 @@ body {}
 	transition:all .3s;
 }
 .single-service:hover h3 {
-    color: #9d297e;
+    color: #1c5773;
 }
 .service-area.service-area-4 .single-service:hover h3 {
-    color: #9d297e;
+    color: #1c5773;
 }
 .service-img a img {
 	backface-visibility: hidden;
@@ -823,7 +1048,7 @@ body {}
     margin-right: 7px;
 }
 .new-product-action a:hover{
-	background:#9d297e;	
+	background:#1c5773;	
 }
 .single-new-product:hover .seceond_img{opacity:1;}
 .single-new-product:hover .new-product-action{opacity:1;z-index:11111; transform:scaleY(1)}
@@ -839,10 +1064,10 @@ body {}
 	margin: 10px 0;
 } 
 .product-content a h3:hover{
-	color:#9d297e;
+	color:#1c5773;
 }
 .product-price-star i {
-	color: #9d297e;
+	color: #ffcc00;
 	font-size: 14px;
 }
 .product-content h4{
@@ -897,14 +1122,14 @@ h3.del-price {
 	transition: all 0.4s ease 0s;
 	width: 40px;
 	margin-bottom: 3px;
-	color:#9d297e;
+	color:#1c5773;
 }
 .new-product-area.home-page-2 .single-new-product .product-icon ul li a:hover {
 	background: #ffffff none repeat scroll 0 0;
 	color: #e73b49;
 }
 .product-icon a:hover{
-	background:#9d297e;
+	background:#1c5773;
 	color:#fff;
 }
 .single-new-product:hover .product-icon {
@@ -1015,7 +1240,7 @@ h3.del-price {
 	margin-bottom: 17px;	
 }
 .slider-info a{
-	background: #9d297e none repeat scroll 0 0;
+	background: #1c5773 none repeat scroll 0 0;
 	color: #ffffff;
 	display: inline-block;
 	font-size: 13px;
@@ -1039,7 +1264,7 @@ h3.del-price {
 	width: 12px;
 }
 .dotted-style .owl-carousel .owl-controls .owl-dot.active {
-    background: #9d297e none repeat scroll 0 0;
+    background: #1c5773 none repeat scroll 0 0;
 }
 .static-single-slider {
     position: relative;
@@ -1073,7 +1298,7 @@ h3.del-price {
 	margin-bottom:0;  
 }
 a.shopnow{  
-	background: #9d297e none repeat scroll 0 0;
+	background: #1c5773 none repeat scroll 0 0;
 	color: #ffffff;
 	display: inline-block;
 	font-size: 14px;
@@ -1139,7 +1364,7 @@ a.shopnow{
 	text-transform: capitalize;	
 }
 .blog-info h2:hover{
-	color:#9d297e;
+	color:#1c5773;
 }
 .blog-info p {
 	font-size: 15px;
@@ -1155,7 +1380,7 @@ a.shopnow{
 	text-transform: capitalize;	
 }
 .blog-info > a:hover{
-	color:#9d297e;
+	color:#1c5773;
 }
 .blog-info a .lnr-arrow-right {
 	margin-left: 8px;
@@ -1350,7 +1575,7 @@ ul.usefull-link li a:hover{
 }
 
 .copyright-area {
-    background: #25241d none repeat scroll 0 0;
+    background: #1b526b none repeat scroll 0 0;
     padding: 30px 0;
 }
 .copyright.text-left > p {
@@ -1358,7 +1583,7 @@ ul.usefull-link li a:hover{
   margin: 0;
 }
 .copyright-area.copyright-4 .copyright p {
-  color: #444!important;
+  color: #ffefef!important;
 }
 .copyright.text-left > p a {
   color: #ffffff;
@@ -1442,7 +1667,7 @@ ul.items li a i {
 	top: 19px;
 }
 .items strong {
-	color: #9d297e;
+	color: #1c5772;
 	font-weight: 400;
 }
 /*------post-list-wrapper-area-start---------- */
@@ -1471,7 +1696,7 @@ ul.items li a i {
 	text-transform: uppercase;
 }
 .post-list-info a h3:hover{
-	color:#9d297e;
+	color:#1c5772;
 }
 .post-list-info span {
     float: right;
@@ -1535,7 +1760,7 @@ ul.items li a i {
 
 /* ----------price-slider--------------- */
 .ui-widget-header {
-	background: #9d297e none repeat scroll 0 0;
+	background: #1c5772 none repeat scroll 0 0;
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -1548,7 +1773,7 @@ ul.items li a i {
 	height: 5px;
 }
 .ui-slider-handle.ui-state-default.ui-corner-all {
-	background: #9d297e none repeat scroll 0 0;
+	background: #1c5772 none repeat scroll 0 0;
 	border: medium none;
 	height: 12px;
 	position: absolute;
@@ -1567,7 +1792,7 @@ h3.bedroom-side-title  {
     text-transform: uppercase;
 }
  h3.bedroom-side-title::before {
-    background: #9d297e none repeat scroll 0 0;
+    background: #1c5772 none repeat scroll 0 0;
     bottom: -9px;
     content: "";
     height: 2px;
@@ -1591,7 +1816,7 @@ h3.bedroom-side-title  {
     float: right;
 }
 .caregory ul li:hover span {
-	color: #9d297e;
+	color: #1c5772;
 	transition: none 0s ease 0s ;
 }
 /* ---------sideber-color-start ---------*/
@@ -1615,7 +1840,7 @@ h3.bedroom-side-title  {
     background: #1857F7
 }
 .sideber-color ul li.bg-colo-6 a {
-    background: #CE64D4
+    background: #1c5772
 }
 .sideber-color ul li.bg-colo-7 a {
     background: #EB6703
@@ -1647,10 +1872,10 @@ ul.tab_menu li a {
 	padding: 7px 11px;
 }
 ul.tab_menu li a:hover{
-	background:#9d297e;
+	background:#1c5772;
 } 
 ul.tab_menu li.active a {
-    background: #9d297e none repeat scroll 0 0;
+    background: #1c5772 none repeat scroll 0 0;
 }
 .single-category-product{
     overflow: hidden;
@@ -1670,7 +1895,7 @@ ul.tab_menu li.active a {
 	margin: 17px 0;
 }
 .single-category-product-info > a h2:hover{
-	color:#9d297e;
+	color:#1c5772;
 }
 
 .price.category-price {
@@ -2443,7 +2668,7 @@ ul.tab_menu li.active a {
   color: #444;
 }
 .copyright-area.copyright-4 .copyright p a {
-  color: #444;
+  color: #dc1b1b;
 }
 .copyright-area.copyright-4 .copyright p a:hover{
 	color:#9d297e;
@@ -2461,7 +2686,7 @@ ul.tab_menu li.active a {
     background: #9d297e none repeat scroll 0 0;
 }
 .copyright-area.copyright-4 {
-	background: #fff;
+	background: #1c5773;
 	border-top: 1px solid#ddd;
 }
 .footer-area-4 .footer-wrapper p {

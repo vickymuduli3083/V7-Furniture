@@ -3308,7 +3308,7 @@ a.shipping-calculator-button:hover{
 }
 .cart_totals table tr.order-total .amount{}
 .wc-proceed-to-checkout a{
-	background: #9d297e none repeat scroll 0 0;
+	background: #1c5773 none repeat scroll 0 0;
 	color: #fff;
 	display: inline-block;
 	font-size: 14px;
@@ -3320,7 +3320,7 @@ a.shipping-calculator-button:hover{
 	text-transform: none;
 }
 .wc-proceed-to-checkout a:hover{
-	background: #000;color:#fff;
+	background: #ff9900;color:#fff;
 }
 
 /* ---------24.Checkout-Page-Start ---------*/
